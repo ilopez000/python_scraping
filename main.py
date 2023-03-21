@@ -44,5 +44,6 @@ if __name__ == '__main__':
     # Mostramos la información de cada página almacenada en la lista
     for i, pagina in enumerate(paginas):
         print(f"\n==== Página {i + 1} ====")
-        pagina.mostrar_pagina()
+        #pagina.mostrar_pagina()
+        pagina.imprimir_pagina_a_fichero("fichero"+str(i)+".txt","C:\\Users\\ignac\\Desktop")
 
